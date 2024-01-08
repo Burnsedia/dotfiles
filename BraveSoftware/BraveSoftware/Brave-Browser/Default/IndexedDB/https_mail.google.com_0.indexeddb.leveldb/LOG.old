@@ -1,0 +1,15 @@
+2023/12/18-19:08:24.187 e7bf Reusing MANIFEST /home/cypher/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/18-19:08:24.187 e7bf Recovering log #29
+2023/12/18-19:08:24.197 e7bf Reusing old log /home/cypher/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000029.log 
+2023/12/18-19:08:44.030 e7b6 Level-0 table #35: started
+2023/12/18-19:08:44.070 e7b6 Level-0 table #35: 2688827 bytes OK
+2023/12/18-19:08:44.075 e7b6 Delete type=0 #29
+2023/12/18-20:17:09.066 e7c0 Compacting 1@1 + 1@2 files
+2023/12/18-20:17:09.077 e7c0 Generated table #36@1: 179 keys, 414366 bytes
+2023/12/18-20:17:09.077 e7c0 Compacted 1@1 + 1@2 files => 414366 bytes
+2023/12/18-20:17:09.081 e7c0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/12/18-20:17:09.081 e7c0 Delete type=2 #32
+2023/12/18-20:17:09.082 e7c0 Delete type=2 #35
+2023/12/18-20:17:22.310 e7b3 Level-0 table #38: started
+2023/12/18-20:17:22.358 e7b3 Level-0 table #38: 2632682 bytes OK
+2023/12/18-20:17:22.366 e7b3 Delete type=0 #34

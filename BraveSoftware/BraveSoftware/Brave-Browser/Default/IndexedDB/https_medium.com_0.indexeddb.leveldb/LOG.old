@@ -1,0 +1,6 @@
+2023/12/24-16:56:54.750 f3d Creating DB /home/cypher/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_medium.com_0.indexeddb.leveldb since it was missing.
+2023/12/24-16:56:54.760 f3d Reusing MANIFEST /home/cypher/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_medium.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/12/24-16:57:07.821 f39 Level-0 table #5: started
+2023/12/24-16:57:07.826 f39 Level-0 table #5: 3109 bytes OK
+2023/12/24-16:57:07.830 f39 Delete type=0 #3
+2023/12/24-16:57:07.831 f39 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

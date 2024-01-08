@@ -1,0 +1,6 @@
+2024/01/07-21:46:20.152 4 Reusing MANIFEST /home/cypher/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/MANIFEST-000001
+2024/01/07-21:46:20.155 4 Recovering log #106
+2024/01/07-21:46:20.156 4 Reusing old log /home/cypher/.config/BraveSoftware/Brave-Browser/Default/Local Storage/leveldb/000106.log 
+2024/01/07-21:47:47.418 6 Level-0 table #110: started
+2024/01/07-21:47:47.432 6 Level-0 table #110: 20253 bytes OK
+2024/01/07-21:47:47.439 6 Delete type=0 #106

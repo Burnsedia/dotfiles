@@ -1,0 +1,67 @@
+{
+   "checksum": "82dc7b8e55db0758fd2dfeea5df06466",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "children": [ {
+               "date_added": "13345683425328234",
+               "date_last_used": "0",
+               "guid": "73a4f3a4-1785-410d-b53c-59e95f39d379",
+               "id": "5",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "GitHub - estevanmaito/tailwindcss-multi-theme: 🎨 The easiest way to create themes with Tailwind CSS.",
+               "type": "url",
+               "url": "https://github.com/estevanmaito/tailwindcss-multi-theme"
+            }, {
+               "date_added": "13345683477846509",
+               "date_last_used": "13346110633469890",
+               "guid": "3d087e41-e733-4b78-b19b-f802ac446e8b",
+               "id": "7",
+               "meta_info": {
+                  "power_bookmark_meta": ""
+               },
+               "name": "GitHub - rosstopping/tailwindcss-templates: Free templates & layouts created using Tailwind CSS.",
+               "type": "url",
+               "url": "https://github.com/rosstopping/tailwindcss-templates"
+            } ],
+            "date_added": "13345683446312878",
+            "date_last_used": "0",
+            "date_modified": "13345683477846509",
+            "guid": "eb73eac2-b868-408f-a907-79780c5ea8b5",
+            "id": "6",
+            "name": "TailWindCSSThemes",
+            "type": "folder"
+         } ],
+         "date_added": "13345683023480058",
+         "date_last_used": "0",
+         "date_modified": "13345683425328234",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13345683023480060",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13345683023480062",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}
