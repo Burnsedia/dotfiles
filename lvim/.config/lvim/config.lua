@@ -4,27 +4,13 @@
 -- Discord: https://discord.com/invite/Xb9B4Ny
 
 lvim.plugins = {
-{
-"dimaportenko/telescope-simulators.nvim"
-
-},
-{
-  "nvim-neorg/neorg",
-  ft = "norg", -- lazy-load on filetype
-  config = true, -- run require("neorg").setup()
-},
-{
-  "jackMort/ChatGPT.nvim",
-    event = "VeryLazy",
-    config = function()
-      require("chatgpt").setup()
-    end,
-    dependencies = {
-      "MunifTanjim/nui.nvim",
-      "nvim-lua/plenary.nvim",
-      "nvim-telescope/telescope.nvim"
-    }
-
-},
-
+  {
+    "nvim-neorg/neorg",
+    ft = "norg", -- lazy-load on filetype
+    config = true, -- run require("neorg").setup()
+  },
+  {
+    'Exafunction/codeium.vim',
+    event = 'BufEnter'
+  }
 }
