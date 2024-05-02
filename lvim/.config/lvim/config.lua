@@ -12,5 +12,5 @@ lvim.plugins = {
   {
     'Exafunction/codeium.vim',
     event = 'BufEnter'
-  }
+}
 }
