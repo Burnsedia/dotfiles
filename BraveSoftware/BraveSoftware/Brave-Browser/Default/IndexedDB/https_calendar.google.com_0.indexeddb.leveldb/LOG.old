@@ -1,6 +1,0 @@
-2023/10/19-16:29:52.396 f41a Creating DB /home/cypher/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb since it was missing.
-2023/10/19-16:29:52.405 f41a Reusing MANIFEST /home/cypher/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_calendar.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/10/19-16:29:56.337 f41b Level-0 table #5: started
-2023/10/19-16:29:56.341 f41b Level-0 table #5: 1532 bytes OK
-2023/10/19-16:29:56.345 f41b Delete type=0 #3
-2023/10/19-16:29:56.345 f41b Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,9 +1,0 @@
-2023-12-31T19:04:20.798Z 0: 
-
-----------------------------------------------
-2023-12-31T19:04:20.807Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.37"}, modulepath: /home/cypher/.config/discord/0.0.37/modules
-2023-12-31T19:04:20.833Z 2: ✅ webContents.created web1 ""
-2023-12-31T19:04:20.850Z 3: ✅ window.created win1 "discord"
-2023-12-31T19:04:21.272Z 4: ✅ webContents.did-finish-load web1
-2023-12-31T19:09:12.176Z 5: window.close win1
-2023-12-31T19:09:12.200Z 6: webContents.destroyed web1
