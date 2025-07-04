@@ -6,7 +6,6 @@ Welcome to my dotfiles repository! This repository contains my personal configur
 ## Features
 
 - **Alacritty** – Configuration for Alacritty, a fast, cross-platform terminal emulator.
-- **LunarVim/Neovim** – My custom configurations for LunarVim and Neovim, including themes and plugins for efficient code editing.
 - **Polybar** – Configuration for Polybar, a highly customizable status bar for i3 and other window managers.
 - **i3/awesomeWM** – Window manager configurations for i3 and AwesomeWM to streamline workflow and window management.
 - **LazyGit** – Setup for LazyGit, a simple terminal UI for Git commands.
