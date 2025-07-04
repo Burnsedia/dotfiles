@@ -1,6 +1,6 @@
 ### EXPORT ###
 export EDITOR='nvim'
-export VISUAL='lvim'
+export VISUAL='nvim'
 export HISTCONTROL=ignoreboth:erasedups
 export PAGER='most'
 
