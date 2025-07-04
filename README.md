@@ -22,10 +22,10 @@ cd dotfiles
 You can manually copy the files or create symlinks to the appropriate directories. For example:
 
 ```bash
-ln -s $(pwd)/alacritty/.config/alacritty ~/.config/alacritty
-ln -s $(pwd)/nvim/.config/nvim ~/.config/nvim
-ln -s $(pwd)/polybar/.config/polybar ~/.config/polybar
-ln -s $(pwd)/i3/.config/i3 ~/.config/i3
+ln -s $(pwd)/alacritty/ ~/.config/alacritty
+ln -s $(pwd)/nvim/~/.config/nvim
+ln -s $(pwd)/polybar/ ~/.config/polybar
+ln -s $(pwd)/i3/ ~/.config/i3
 ```
 
 ## Usage
