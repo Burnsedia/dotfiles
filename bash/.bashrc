@@ -394,6 +394,9 @@ alias personal='cp -Rf /personal/* ~'
 
 [[ -f ~/.bashrc-personal ]] && . ~/.bashrc-personal
 
+#godot3 cli
+alias godot3="$HOME/.local/bin/godot3"
+
 # reporting tools - install when not installed
 # neofetch
 #screenfetch
@@ -411,8 +414,7 @@ alias personal='cp -Rf /personal/* ~'
 #colorscript random
 . "$HOME/.cargo/env"
 
+export $PATH="$HOME/.cargo/bin/"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
-
-alias godot3="$HOME/.local/bin/godot3"
