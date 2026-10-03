@@ -1,61 +1,32 @@
+# Unified Smart-Rice Dotfiles
 
-# Dotfiles
+This repository contains the configuration for the **Unified Smart-Rice** ecosystem.
 
-Welcome to my dotfiles repository! This repository contains my personal configurations for various development tools and environments. These dotfiles are designed to enhance productivity and provide a customized setup for Linux.
+## 🚀 Core Philosophy
+- **Vim-Ubiquitous**: HJKL movement and Vim-like semantics are integrated into the Window Manager (Hyprland/i3), Terminal (Alacritty), and Editor (Neovim).
+- **Darksynthwave Aesthetic**: A unified, high-contrast, Material Design-inspired theme applied across all tools.
+- **AI-Driven Workflow**: Deep integration with `llamacpp` for context-aware automation in the terminal and editor.
+- **Smart Context Awareness**: Automatic window rules for professional art (Blender) and high-performance gaming.
 
-## Features
+## 🎨 Theme: Darksynthwave
+- **Primary**: `#ff00ff` (Magenta)
+- **Secondary**: `#00ffff` (Cyan)
+- **Accent**: `#ffcc00` (Amber)
+- **Background**: `#000000` (Black)
 
-- **Alacritty** – Configuration for Alacritty, a fast, cross-platform terminal emulator.
-- **Polybar** – Configuration for Polybar, a highly customizable status bar for i3 and other window managers.
-- **i3/awesomeWM** – Window manager configurations for i3 and AwesomeWM to streamline workflow and window management.
-- **LazyGit** – Setup for LazyGit, a simple terminal UI for Git commands.
+## 🛠️ Tooling
+- **Compositors**: Hyprland (Wayland) & i3 (X11 fallback).
+- **Terminal**: Alacritty.
+- **Editor**: Neovim (LazyVim base).
+- **AI Engine**: `llamacpp` (via `llama-cli`).
+- **Status Bar**: Polybar / Waybar.
 
-## Installation
+## ⌨️ Key Workflows
+- **AI in Terminal**: `ai 'question'`, `airef` (refactor), `aiexp` (explain), `aisum` (summary).
+- **AI in Neovim**: `<leader>ai` (query selection).
+- **Vim Binds**: `HJKL` for window and workspace navigation.
 
-To install these dotfiles, you can clone this repository and copy the configuration files to their respective locations.
-
-```bash
-git clone https://github.com/Burnsedia/dotfiles.git
-cd dotfiles
-```
-
-You can manually copy the files or create symlinks to the appropriate directories. For example:
-
-```bash
-ln -s $(pwd)/alacritty/ ~/.config/alacritty
-ln -s $(pwd)/nvim/~/.config/nvim
-ln -s $(pwd)/polybar/ ~/.config/polybar
-ln -s $(pwd)/i3/ ~/.config/i3
-```
-
-## Usage
-
-Once the dotfiles are in place, you can start using the customized setups immediately by launching the respective tools. Make sure to reload or restart applications (like your window manager or terminal) to apply the changes.
-
-For example, to reload i3:
-
-```bash
-i3-msg reload
-```
-
-## Technologies Used
-
-- **Alacritty**
-- **Neovim**
-- **LunarVim**
-- **Polybar**
-- **i3**
-- **AwesomeWM**
-- **LazyGit**
-
-## Contributing
-
-Feel free to fork the repository and submit pull requests if you'd like to suggest changes or contribute improvements.
-
-## License
-
-This repository is licensed under the [GPL License](LICENSE).
-
-## Contact
-
-For any questions or suggestions, feel free to reach out via [GitHub](https://github.com/Burnsedia) or by [mail](mail@baileyburnsed.dev).
+## ⚙️ Setup
+1. Ensure `llamacpp` is installed in `~/.local/bin/`.
+2. Update the model path in `scripts/ai_query.sh`.
+3. Symlink these dotfiles to your home directory.
