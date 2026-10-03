@@ -518,3 +518,9 @@ alias personal='cp -Rf /personal/* ~'
 export PATH=/home/cypher/.local/bin:$PATH
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
+# AI Workflows
+alias ai='~/dev/github/dotfiles/scripts/ai_query.sh'
+alias airef='~/dev/github/dotfiles/scripts/ai_refactor.sh'
+alias aiexp='~/dev/github/dotfiles/scripts/ai_explain.sh'
+alias aisum='~/dev/github/dotfiles/scripts/ai_summary.sh'
